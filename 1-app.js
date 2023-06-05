@@ -43,15 +43,15 @@ const class_QSelector = document.querySelector(".div1"); // class selector
 const ptag_QSelector = document.querySelector("p"); // P html element
 
 
-console.log("Getting InnerText:",id1_QSelector.innerText);//getter
+console.log("Getting InnerText:",id_QSelector.innerText);//getter
 
 //id1_QSelector.innerText="<p id=“example”>This is an <span> example </span>.</p>"
 
-console.log("Getting textContent:",id1_QSelector.textContent); //Getter
+console.log("Getting textContent:",id_QSelector.textContent); //Getter
 
 //id1_QSelector.textContent = "<p id=“example”>This is an <span> example </span>.</p>"
 
-console.log("Getting InnerHTML:",id1_QSelector.innerHTML); //Getter
+console.log("Getting InnerHTML:",id_QSelector.innerHTML); //Getter
 
 //id1_QSelector.innerHTML = "<p id=“example”>This is an <span> example </span>.</p>" 
 
