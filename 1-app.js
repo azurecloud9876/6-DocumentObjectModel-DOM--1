@@ -1,7 +1,7 @@
-//console.log("Debugging Document object in browser",document);
-//console.log("Debugging Document body",document.body);
-//console.log("Debugging Document nodes",document.childNodes); // <DOCTYPE> and <HTML> - NodeList(2) [<!DOCTYPE html>, html]
-//console.log("Debugging Document Elements",document.children); // HTMLCollection [html]
+console.log("Debugging Document object in browser",document);
+console.log("Debugging Document body",document.body);
+console.log("Debugging Document nodes",document.childNodes); // <DOCTYPE> and <HTML> - NodeList(2) [<!DOCTYPE html>, html]
+console.log("Debugging Document Elements",document.children); // HTMLCollection [html]
 
 
 /* 
@@ -36,7 +36,11 @@ Setter : innerHTML -  HTML element in string is rendered as output in the browse
 
 const id1_GetElement = document.getElementById("id1"); //HTMLElement 
 
-const id1_QSelector = document.querySelector("p");
+const id_QSelector = document.querySelector("#id1"); // id selector
+
+const class_QSelector = document.querySelector(".div1"); // class selector
+
+const ptag_QSelector = document.querySelector("p"); // P html element
 
 
 console.log("Getting InnerText:",id1_QSelector.innerText);//getter
